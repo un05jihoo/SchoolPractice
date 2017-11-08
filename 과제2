@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+	int a;
+	printf("몇 번이나 반복할까요?: ");
+	scanf("%d",&a);
+	while(a>0)
+	{
+		printf("안녕하세요\n");
+		a--;
+	}
+}
